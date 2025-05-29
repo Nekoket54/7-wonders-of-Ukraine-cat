@@ -464,10 +464,13 @@ body{
                 font-family: var(--font-family);
                 font-weight: 400;
                 font-size: 11px;
-                line-height: 169%;
+                line-height: 228%;
                 text-transform: uppercase;
-                color: white;
+                color: #cccccc;
                 text-decoration: none;
+                text-align: center;
+                align-items: center;
+                text-shadow: 1px 1px 2px black;
             }
             &-link:hover{
                 color: #ed4899;
@@ -477,13 +480,31 @@ body{
         &-box2{
 
             &-text{
-                font-family: var(--font-family);
+                font-family: none;
                 font-weight: 700;
-                font-size: 14px;
+                font-size: 13px;
                 line-height: 193%;
                 text-transform: uppercase;
-                color: #8c96a0;
+                color: #cccccc;
+                letter-spacing: 2px;
+                text-shadow: 1px 1px 2px black;
             }
+        }
+    }
+    &-container2{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        &-text{
+            text-align: center;
+            font-family: var(--font-family);
+            font-weight: 700;
+            font-size: 15px;
+            line-height: 193%;
+            text-transform: uppercase;
+            color: #cccccc;
+            letter-spacing: 0.2rem;
+            text-shadow: 1px 1px 2px black;
         }
     }
     &-text{
